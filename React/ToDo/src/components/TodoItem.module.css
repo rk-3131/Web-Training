@@ -1,0 +1,48 @@
+.item {
+  width: 50%;
+  height: 50px;
+  color: black;
+  font-size: 20px;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.itemName {
+  font-weight: bolder;
+  position: relative;
+  font-size: 30px;
+}
+.editButton {
+  width: auto;
+  position: absolute;
+  right: 70px;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.deleteButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  padding: 12px 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.lt {
+  text-decoration: line-through;
+}
+
+.changeClass {
+  display: none;
+}

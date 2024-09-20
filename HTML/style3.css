@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    float: left;
+    /* This is used to make the list horizontal */
+    margin: 20px;
+    background-color: bisque;
+}
+
+li:hover{
+    background-color: aqua;
+}

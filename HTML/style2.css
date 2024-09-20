@@ -1,0 +1,29 @@
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px; 
+    /* As borders are collapsed hence border radius property is not added into the table */
+    border-collapse: collapse; /* This is used to make the double border of the table as single borders*/
+}
+
+
+/* th, td {
+    border: 2px solid black;
+    border-radius: 10px;
+} */
+ /* By using above code for the table we can just apply the table radius to only the part of the page which is head section and the data sections */
+
+ table {
+    width: 50%;
+ }
+
+ /* Lets make the alternate rows of the table to have some bg color  */
+
+ /* tr:nth-child(even){
+    background-color: aqua;
+ }
+
+ td:nth-child(even){
+    background-color: blueviolet;
+ } */
+
+ 

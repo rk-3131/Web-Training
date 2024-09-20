@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+
+<body>
+    <h1>This one is for the form element</h1>
+    <form action="">
+        <label for="fName">First Name:</label>
+        <input type="text" name="fName" id="fName">
+        <br>
+        <label for="lName">Last Name:</label>
+        <input type="text" name="lName" id="lName">
+        <br>
+        <input type="radio" name="choice" id="fChoice">
+        <label for="fChoice">first choice</label>
+        <input type="radio" name="choice" id="sChoice">
+        <label for="sChoice">second choice</label>
+        <input type="radio" name="choice" id="tChoice">
+        <label for="tChoice">third choice</label>
+        <!-- When we are adding the radio button in the form element then the name of all the elements has to be equal -->
+        <!-- As and when the name is same then the choices will be marked for only one element -->
+        <br>
+        <input type="checkbox" name="pune" id="pune" value="pune">
+        <label for="pune">Pune</label>
+        <br>
+        <input type="checkbox" name="nagpur" id="nagpur" value="nagpur">
+        <label for="nagpur">Nagpur</label>
+        <br>
+        <!-- select is used to get the drop down list -->
+        <select name="cars" id="cars">
+            <option value="Honda">Honda</option>
+            <option value="Volkswagon">Volkswagon</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Suzuki">Suzuki</option>
+        </select>
+        <!-- size attribute can be given to see the number of element directly on the screen -->
+        <!-- We can also use the multiple as attribute if specified multiple elements can be selected and used -->
+
+        <!-- Textarea is used to get input from the user in large text format and hence we can enter the large text there in that area -->
+        
+        <!-- 
+         The <fieldset> element is used to group related data in a form.
+        The <legend> element defines a caption for the <fieldset> element.
+         -->
+
+        <!-- 
+         The <datalist> element specifies a list of pre-defined options for an <input> element.
+        Users will see a drop-down list of the pre-defined options as they input data.
+        The list attribute of the <input> element, must refer to the id attribute of the <datalist> element.
+         -->
+         <input list="browsers">
+         <datalist id="browsers">
+           <option value="Edge">
+           <option value="Firefox">
+           <option value="Chrome">
+           <option value="Opera">
+           <option value="Safari">
+         </datalist>
+         <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>

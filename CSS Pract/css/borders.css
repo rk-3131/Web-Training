@@ -1,0 +1,58 @@
+* {
+    margin: 10px;
+}
+
+.header, .footer, .middle div{
+    background-color: bisque;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    border-left: 2px solid #1abf3e;
+    border-bottom: 2px solid #1abf3e;
+    border-radius: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.header h1, .footer h1, .middle div h1 {
+    text-align: center;
+    color: brown;
+    font-size: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header p, .footer p, .middle div p{
+    text-align: justify;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 1vw;
+    padding: 20px;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/* Here we have added same properties to most of the html elements hence once we change one line it will affect the behaviour of the code that is present there */
+/* Only top and bottom margins are collapsed into single margin which is largest of both of them */
+/* This does not happen with the right and left margin though */
+/* If padding is added to the element which has already defined fixed width and height then padding is added to the content are and it does not care about the width that has been given to it */
+/* box sizing to be set to border box can set the element's width to same and content size will grow on other side i.e if width is fixed then height will be increased */
+
+/* width and height properties are set to make sure that the content inside the box takes that much amount of space inside */
+/* Here the space covered by width and height is apart from padding and margin */
+/* Total space taken will be sum of width + padding + margin  */
+/* Total element width = width + left padding + right padding + left border + right border */
+/* max width will give the width to that element upto that level only */
+
+/* Outline is the line which is added after the margin inside the page */
+/* It has simmillar properties as border but it is not included in the box model of the web content there */
+/* outline has style color and width which can be used when and where */
+/* We can add outline offset to the content */
+/* If we add outline-offset we can use that offset as gap between margin and outline */
+/* Area between outline and margin is transparent and the location of the element will not be altered after the addition of outline offset */
+

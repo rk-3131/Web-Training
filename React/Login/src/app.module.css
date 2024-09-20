@@ -1,0 +1,7 @@
+.container {
+  margin: 0;
+  /* background-color: rgb(185, 178, 178); */
+  background-image: linear-gradient(rgb(231, 88, 88), rgb(229, 229, 121));
+  width: 100%;
+  height: 100vh;
+}

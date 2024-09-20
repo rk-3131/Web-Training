@@ -1,0 +1,37 @@
+* {
+    margin: 5vh;
+}
+
+.header {
+    border: 1px solid black;
+    border-radius: 2vh;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+
+.header p {
+    text-align: center;
+    font-size: 2vh;
+}
+
+.imageBg h1{
+    text-align: center;
+}
+
+body {
+    /* background-image: url("/nature.jpg"); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* This are used to repeat the background image in the direction that we want it to be */
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment:fixed; */
+
+    background-image: url("/images/snow.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

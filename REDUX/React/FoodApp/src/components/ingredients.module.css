@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.container:hover {
+  box-shadow: 20px 20px 40px rgb(0, 0, 0, 0.5);
+}
+
+.name {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.image {
+  justify-content: center;
+}
+
+.quantity {
+  text-align: center;
+  margin: auto auto;
+}
+
+.nameAndQuantity {
+  margin: 10px 30px;
+}

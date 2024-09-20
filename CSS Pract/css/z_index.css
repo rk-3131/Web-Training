@@ -1,0 +1,28 @@
+.biggest {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background-color: aqua;
+}
+
+.first {
+    z-index: 1;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.sec {
+    z-index: 2;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+/* CSS overflow is the property which is used to make sure that the content inside that block will not go out of the box and hence by using overflow we can add the scrollbar to the txt */
+
+/* CSS combinator selector is used to get the defined selected element to be used to set the css property */
+/* space is used to select the all elements inside that element
+e.g div p is used to select all p inside of the div section */
+/* div > p will be used to select all the children of div which are p */
+/* div + p here immidiate after the div first p will be selected */

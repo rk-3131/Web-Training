@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <h1>This one is used for media</h1>
+
+    <video width="500px" autoplay muted controls>
+        <source src="videos/test.mp4">
+        <!-- Here we can add as many as video sources possible but still we have to make sure that the element in the are arranged such that the videos which are most likely to play will be first -->
+         Browser does not support video
+         <!-- This is the text which will be shown if browser does not support video -->
+    </video>
+
+    <audio>
+        <source src="audio/Recording.m4a">
+        does not support audio
+    </audio>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dx4Teh-nv3A?si=hKZzETX6l-aCtL5F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

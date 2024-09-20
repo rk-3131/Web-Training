@@ -1,0 +1,9 @@
+div.outerOne {
+    display: flex;
+}
+
+div.outerOne  div {
+    width: 33%;
+}
+
+/* So we can again make the div blocks horizontal by using the display flex proprties */

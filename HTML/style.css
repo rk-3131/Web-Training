@@ -1,0 +1,19 @@
+body {
+    background-color: darkseagreen;
+    background-image: url("images/nature.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* This is used to cover the whole page with the image that has been proviede there*/
+    background-attachment: fixed;
+}
+
+div {
+    border: 5px solid red;
+    padding: 15px;
+    margin: 15px;
+}
+
+table, th, td {
+    border: 1px solid red;
+    border-radius: 10px;
+    border-collapse: collapse; /* This is used to make the double border of the table as single borders*/
+}

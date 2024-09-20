@@ -1,0 +1,95 @@
+body {
+    margin: 40px;
+}
+
+div.header{
+    background-color: aquamarine;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div.header h1{
+    color: brown;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+div.header p{
+    color: brown;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+div.imageSection {
+    position: relative;
+}
+
+div.imageSection img{
+    width: 100%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.50;
+}
+
+div.imageSection img:hover{
+    opacity: 1;
+}
+
+.imageSection .topLeft, .imageSection .topRight, .imageSection .bottomLeft, .imageSection .bottomRight, .imageSection .middleOne {
+    background: rgb(120, 35, 35);
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.imageSection .topLeft{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.imageSection .topLeft:hover{
+    opacity: 1;
+}
+
+.imageSection .topRight {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.imageSection .topRight:hover{
+    opacity: 1;
+}
+
+.imageSection .bottomLeft {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.imageSection .bottomLeft:hover{
+    opacity: 1;
+}
+
+
+.imageSection .bottomRight {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imageSection .bottomRight:hover{
+    opacity: 1;
+}
+
+.imageSection .middleOne {
+    position: absolute;
+    right: 45%;
+    bottom: 50%;
+}
+.imageSection .middleOne:hover{
+    opacity: 1;
+}
+
+
+

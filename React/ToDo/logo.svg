@@ -1,0 +1,12 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000" ry="284.49999" rx="399.00004" id="svg_1" cy="290.50001" cx="400" fill="#fff"/>
+  <text font-style="normal" font-weight="normal" transform="matrix(18.3946 0 0 6.51896 -2556.8 -734.153)" stroke="#000000" xml:space="preserve" text-anchor="start" font-family="'Tangerine'" font-size="24" id="svg_3" y="146.1534" x="147" stroke-width="0" fill="#005fbf">To</text>
+  <text font-style="normal" font-weight="normal" transform="matrix(18.3946 0 0 6.51896 -2556.8 -734.153)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="'Tangerine'" font-size="24" id="svg_4" y="173.61176" x="145.206" stroke-width="0" fill="#005fbf">Do</text>
+  <path id="svg_5" d="m105,243l-12,24" opacity="NaN" stroke="#000000" fill="#005fbf"/>
+  <path id="svg_6" d="m100,255l-2,37l3,-19" opacity="NaN" stroke="#000000" fill="#005fbf"/>
+  <path d="m114,252c-1,-1 -1.8819,0.07278 -5,5c-3.85613,6.09344 -4.82375,10.51373 -7,10c-2.91975,-0.68927 -0.61092,-6.03748 0,-11c1.51132,-12.27664 5.97251,-19.64749 7,-24c0.22975,-0.97325 1.61183,0.93939 -3,7c-3.87749,5.09558 -13.19409,13.88855 -16,19c-1.07602,1.96014 -3,5 -2,5c1,0 4.57718,-9.73657 8,-18c2.4203,-5.84312 3.07625,-7.99709 3,-7c-1.00292,13.11465 -3.99245,23.81558 -5,32c-0.36655,2.97751 1.18938,-0.91605 2,-3c2.63921,-6.78488 4.98163,-12.71201 6,-18c0.18911,-0.98195 1.01189,1.47363 -5,13c-6.02966,11.56042 -8.82375,20.51373 -11,20c-2.91975,-0.68927 4.01607,-10.61404 7,-20c1.54486,-4.85938 2,-8 2,-5c0,3 0,7 0,11l0,1" id="svg_8" fill="none"/>
+ </g>
+</svg>

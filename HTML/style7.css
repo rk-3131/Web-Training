@@ -1,0 +1,10 @@
+div.outerOne {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+/* CSS grid is also a good property which we can use to add and make the divs work horizontal */
+
+div.outerOne div:hover {
+    background-color: bisque;
+}

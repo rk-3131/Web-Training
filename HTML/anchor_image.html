@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Second Practice</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+        <!-- links used for the HTMl -->
+        <!-- anchor tag is used to add the links in the web pages -->
+
+        <p>This is Radhakrushna Mahadik and here is my github profile <a href="https://github.com/rk-3131"
+                        target="_blank">rk-3131</a></p>
+        <p>In case you want to go through my leetcode profile you can go through the link provided here <a
+                        href="https://leetcode.com" target="_top">Leetcode</a></p>
+
+        <!-- 
+     The target attribute can have one of the following values:
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window    
+     -->
+
+        <!-- All of the above code was about absolute URL -->
+        <!-- We can even use the relative URL in the code -->
+
+        <a href="index.html" target="_blank">Go to previous page</a>
+
+        <!-- Use image as link to another page -->
+        <p>Click on the image to go to the site specified</p>
+        <a href="https://github.com/rk-3131" target="_blank"><img src="images/images.jpg" alt="github logo"></a>
+
+        <!-- We can even add the links so that it will be easy to email someone -->
+
+        <a title="Radhakrushna Mahadik" href="mailto:mahdikrs512@gmail.com" target="_blank">Contact Us</a>
+        <!-- we can even give the title to links such that we can have the title and we can see the text data  -->
+
+        <!-- 
+       Use the <a> element to define a link
+        Use the href attribute to define the link address
+        Use the target attribute to define where to open the linked document
+        Use the <img> element (inside <a>) to use an image as a link
+        Use the mailto: scheme inside the href attribute to create a link that opens the user's email program
+       -->
+
+        <!-- to add the image into web page we have to add it via using img tag -->
+        <!-- it has two most imp attribute src which tells us the source of the image and then there is another attribute called as alt which will tell the alternative text which will be displayed if we think that the image will not be loaded for any reason -->
+
+        <br>
+        <img src="images/images.jpg" alt="Github logo" width="100px" height="100px">
+        <!-- The length and the breadth of the web page can also be set using css style and that has to be given more priority -->
+        <!-- We can also have the float property which will allow the image to be floated on the left or right side of the txt that we are typing -->
+
+        <p>Here the image will be on the right of this text <img src="images/images.jpg" alt="github logo"
+                        style="float: right;"></p>
+
+        <!-- 
+         <img>	Defines an image
+        <map>	Defines an image map
+        <area>	Defines a clickable area inside an image map
+        <picture>	Defines a container for multiple image resources
+         -->
+
+        <!-- picture is the attribut which is used to add different types of images in different screen sizes -->
+
+        <picture>
+                <source media="(min-width: 650px)" srcset="images/images.jpg">
+        </picture>
+
+        <!-- To add the favicon to the site we have to add it inside the header section of the html file -->
+</body>
+
+</html>

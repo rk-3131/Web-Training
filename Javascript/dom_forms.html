@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Form</title>
+    <link rel="stylesheet" href="css/dom_forms.css">
+</head>
+<body>
+    <div id="myForm">
+        <form action="">
+            <div class="firstName">
+                <label for="fName">First Name</label>
+                <input type="text" name="fName" id="fName" required>
+            </div>
+            <div class="lastName">
+                <label for="lName">Last Name</label>
+                <input type="text" name="lName" id="lName" required>
+            </div>
+            <div class="email">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="SAge">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" required>
+            </div>
+            <div class="languages">
+                <label for="">Select the languages</label>
+                <br>
+                <input type="checkbox" name="mar" id="mar" value="marathi">
+                <label for="mar">Marathi</label>
+                <input type="checkbox" name="hin" id="hin" value="hindi">
+                <label for="hin">Hindi</label>
+                <input type="checkbox" name="en" id="en" value="english">
+                <label for="en">English</label>
+                <input type="checkbox" name="tam" id="tam" value="tamil">
+                <label for="tam">Tamil</label>
+                <input type="checkbox" name="fr" id="fr" value="french">
+                <label for="fr">French</label>
+            </div>
+            <div class="city">
+                <label for="">Select the city</label>
+                <br>
+                <input type="radio" name="city" id="pune"><label for="pune">Pune</label>
+                <input type="radio" name="city" id="ngp"><label for="ngp">Nagpur</label>
+                <input type="radio" name="city" id="ngr"><label for="ngr">Nagar</label>
+                <input type="radio" name="city" id="mum"><label for="mum">Mumbai</label>
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <script src="js/dom_froms.js"></script>
+</body>
+</html>

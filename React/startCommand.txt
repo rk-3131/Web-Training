@@ -1,0 +1,50 @@
+PS D:\Training\React> npm create vite@4.1.0
+Need to install the following packages:
+  create-vite@4.1.0
+Ok to proceed? (y) y
+√ Project name: ... firstProject
+√ Package name: ... firstproject
+
+Scaffolding project in D:\Training\React\firstProject...
+
+Done. Now run:
+
+  cd firstProject
+  npm install
+  npm run dev
+
+PS D:\Training\React> cd firstProject
+PS D:\Training\React\firstProject> npm install
+npm WARN EBADENGINE Unsupported engine {
+npm WARN EBADENGINE   required: { node: '>=14.18.0', npm: '>=8.0.0' },
+npm WARN EBADENGINE   current: { node: 'v16.8.0', npm: '7.21.0' }
+npm WARN EBADENGINE }
+
+added 74 packages, and audited 75 packages in 18s
+
+7 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS D:\Training\React\firstProject> npm run dev
+
+> firstproject@0.0.0 dev
+> vite
+
+
+  VITE v4.5.3  ready in 1027 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+PS D:\Training\React\firstProject> npm run dev
+
+> firstproject@0.0.0 dev
+> vite
+
+
+  VITE v4.5.3  ready in 655 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help

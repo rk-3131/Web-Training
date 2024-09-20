@@ -1,0 +1,22 @@
+div.largestDiv {
+    width: 100%;
+    overflow: auto;
+}
+
+div.largestDiv div {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    /* The float property will be used to make the div element to get to the left and hence they can be arraned in the horizontal manner */
+}
+
+div.largestDiv div:hover{
+    background-color: bisque;
+}
+
+div.largestDiv div p {
+    text-align: justify;
+}
+
+/* All the div can also be arraged in the horizontal manner by using the display propert of each div element to inline block
+By using this propert we can make the div inline and hence it will not cover the exrtra area which is required and added there */

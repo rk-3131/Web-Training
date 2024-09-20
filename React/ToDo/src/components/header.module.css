@@ -1,0 +1,11 @@
+.header {
+  background-color: rgb(156, 101, 25);
+  color: azure;
+  font-size: 10vh;
+  text-align: center;
+  padding: 3vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 14px rgb(10, 0, 0);
+  margin-bottom: 30px;
+}

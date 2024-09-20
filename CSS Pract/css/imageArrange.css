@@ -1,0 +1,84 @@
+.header {
+    background-color: beige;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+    /* width: 2000px; */
+    /* max width is used to set the maximum width it can take if the width of the browser becomes less than that then it will make sure that it gets size less than that too
+    But in case of width property the browser will take the specified width no matter what and hence it will add the scrollbar to it */
+    margin: auto;
+}
+
+.header h1 {
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.images {
+    display: flex;
+}
+
+.images .snow, .images .hill, .images .beach {
+    margin: auto;
+    border: 1px solid black;
+    opacity: 0.5;
+    filter: grayscale(10%);
+}
+
+.positionedImage {
+    width: 80%;
+    margin: auto;
+}
+
+.positionedImage img {
+    width: 100%;
+}
+
+/* relative is used to set the element to the position relative to its previous location */
+/* it can be moved but other elements will not be allowed to be fitted into the gap that has been left by that shifting of that element */
+
+
+/* If the position of the element is set to fixed then it will never change the position even after the scrolling of the page */
+/* It wont have any gap where it was previously located */
+
+.fixedOne {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.fixedOne h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.fixedOne p{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+/* As fixed is set to have been set to be fixed at certain location at the position that we specify it be placed
+There is another position attribut called as absolute */
+/* This will make the element at that position to stay at that location where it will relate to parent only and not any other thing 
+But main thing that has to be considered here is that the parent has to be positioned as relative so that it can have the element into it as absolute*/
+
+.positionedImage {
+    position: relative;
+}
+.textInImage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: aqua;
+    max-width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}

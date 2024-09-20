@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+
+<body>
+    <h1>This is used to draw the canvas elements</h1>
+
+    <canvas id="firstCanvas" width="200px" , height="200px" style="border: 2px solid black;">
+        <!-- here we have just created the space for the canvas but still we have to add the elements inside this space -->
+    </canvas>
+
+    <canvas id="secondCanvas" width="200px" , height="200px" style="border: 2px solid black;">
+        <!-- here we have just created the space for the canvas but still we have to add the elements inside this space -->
+    </canvas>
+
+
+    <canvas id="thirdCanvas" width="200px" , height="200px" style="border: 2px solid black;">
+        <!-- here we have just created the space for the canvas but still we have to add the elements inside this space -->
+    </canvas>
+
+    <!-- Just like the canvas we can add SVG into the system and by using which we can add the canvas element to have the more clear graphics -->
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="black" stroke-width="2" fill="orange" />
+      </svg>
+
+    <script>
+        var canvas1 = document.getElementById("firstCanvas");
+        // The canvas created in html page will be accessed here
+        var cx1 = canvas1.getContext("2d");
+        // The cx1 will be having the context as 2d of the whole canvas present there
+
+        cx1.beginPath();
+        cx1.arc(100, 100, 100, 0, Math.PI);
+        // the arc has parameter list as
+        // x cordinate of the centre. y cordinate of the centre, radius of the circle, starting angle and then ending angle of the circle
+
+        cx1.moveTo(100, 100);
+        // This is used to take the pointer of the code to the specified location in the moveTo function here we have taken the location of the points there to a position where there is centre
+        cx1.lineTo(200, 200);
+        // This is used to draw the line from that starting point to the points mentioned there
+        cx1.stroke();
+        // This is used oto draw the circle into the plane
+
+        // second canvas
+        var canvas2 = document.getElementById("secondCanvas");
+        var cx2 = canvas2.getContext("2d");
+        cx2.beginPath();
+        cx2.moveTo(100, 100);
+        cx2.lineTo(200, 200);
+        cx2.moveTo(100, 100);
+        cx2.lineTo(0,50);
+        cx2.stroke();
+        // this is used to draw the line using canvas
+
+
+        var canvas3 = document.getElementById("thirdCanvas");
+        var cx3 = canvas3.getContext("2d");
+        cx3.beginPath();
+        cx3.moveTo(100,100);
+        cx3.font = "30px Arial";
+        cx3.fillText("Hello World",30,95);
+        cx3.strokeText("Hello World", 10, 50);
+    </script>
+</body>
+
+</html>

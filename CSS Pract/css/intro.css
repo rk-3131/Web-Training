@@ -1,0 +1,41 @@
+* {
+    margin: 30px;
+}
+
+.header {
+    background-color: #269349;
+    color: white;
+}
+
+.middleSection {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.middleSection .left {
+    text-align: center;
+}
+
+.middleSection .left h3:hover{
+    background-color: #269349;
+}
+
+.middleSection .right {
+    background-color: skyblue;
+}
+
+.footer {
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+/* Only specific element can be used to select and style so that it can be styled */
+/* If we want to style the paragraph element which has class middle then p.middle can be used to select the element in the form */
+
+/* Selector	Example	Example description
+#id	#firstname	Selects the element with id="firstname"
+.class	.intro	Selects all elements with class="intro"
+element.class	p.intro	Selects only <p> elements with class="intro"
+*	*	Selects all elements
+element	p	Selects all <p> elements
+element,element,..	div, p	Selects all <div> elements and all <p> elements */

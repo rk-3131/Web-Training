@@ -1,0 +1,7 @@
+div {
+    /* Here we will just make the display property of each of the div as inline block and then all will be horizontal */
+    display: inline-block;
+    width: 33%;
+
+    /* It as as simple as that */
+}

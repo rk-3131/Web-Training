@@ -1,0 +1,42 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin: 10vh 15vw;
+    padding: 5vh;
+}
+form label, form input {
+    font-size: 30px;
+    margin: 10px;
+}
+
+form input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 7.5px;
+}
+.btn input{
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.city input:hover {
+    cursor:grab;
+}
+
+.city label:hover {
+    cursor:grab;
+}
+
+.languages input:hover {
+    cursor:crosshair
+}
+
+.languages label:hover {
+    cursor:grab;
+}

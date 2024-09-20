@@ -1,0 +1,104 @@
+div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 50px;
+}
+
+div.translate:hover {
+    transform: translate(20px, 20px);
+}
+
+div.rotate:hover {
+    transform: rotate(30deg);
+}
+
+div.scalex:hover {
+    transform: scaleX(0.5)
+}
+
+div.scaley:hover {
+    transform: scaleY(0.5)
+}
+
+div.scale:hover {
+    transform: scale(0.5)
+}
+
+div.skew:hover {
+    transform: skew(30deg)
+}
+
+div.skewy:hover {
+    transform: skewY(30deg)
+}
+
+div.skewx:hover {
+    transform: skewX(30deg)
+}
+
+div.transition {
+    width: 200px;
+    background-color: antiquewhite;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+div.transition:hover {
+    width: 1000px;
+}
+
+@keyframes myAnimations {
+    0% {background-color: red; color: wheat;}
+    25% {background-color: brown; color: white;}
+    50% {background-color: blue; color: yellow;}
+    75% {background-color: yellow; color: black;}
+    100% {background-color: black; color: wheat;}
+}
+
+div.animations {
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+div.animations:hover {
+    animation-name: myAnimations;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    /* animation-iteration-count: 3; */
+}
+
+.imageContainer {
+    position: relative;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+}
+
+.imageContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 200px;
+}
+
+.imageContainer .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: brown;
+    color: wheat;
+    font-size: 30px;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+    transition: 2s ease;
+}
+
+.imageContainer:hover .overlay{
+    opacity: 1;
+}

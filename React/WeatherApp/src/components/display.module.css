@@ -1,0 +1,51 @@
+.condition {
+  position: relative;
+}
+img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+sup {
+  position: absolute;
+  top: 0;
+}
+
+.afterLoadContainer {
+  background-color: rgb(99, 96, 92);
+  padding: 30px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  margin: 30px;
+  padding: 50px;
+  height: 200px;
+}
+
+.temprature {
+  font-size: 30px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.windHumidity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.wind {
+  margin: 10px;
+}
+
+.humidity {
+  margin: 10px;
+}

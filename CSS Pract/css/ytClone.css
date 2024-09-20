@@ -1,0 +1,181 @@
+
+body {
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    .input{
+        flex-grow: 1; 
+        position: absolute;
+        left: 30vw;
+        input {
+            border: 1px solid black;
+            border-radius: 15px 0 0 15px;
+            height: 3vh;
+            width: 30vw;
+            padding: 5px;
+            font-size: 20px;
+        }
+    }
+    .logo img {
+        width: 5vw;
+    }
+    .search img {
+        position: absolute;
+        width: 1.75vw;
+        left: 60.65vw;
+        border: 0.5px solid black;
+        padding: 5px;
+        border-radius: 0 50% 50% 0;
+        height: 3vh;
+    }
+    .mic img {
+        position: absolute;
+        left: 63.25vw;
+        width: 1.75vw;
+        border: 0.5px solid black;
+        padding: 5px;
+        border-radius: 50%;
+    }
+
+    .user img {
+        position: absolute;
+        right: 1.5vw;
+        width: 1.75vw;
+        border: 0.5px solid black;
+        padding: 5px;
+        border-radius: 50%;
+    }
+}
+
+.middle {
+    display: flex;
+    .left{
+        position: relative;
+        margin-right: 50px;
+        width: 30vw;
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            padding-left: 0;
+
+            li {
+                margin: 3px;
+            }
+        }
+        img {
+            width: 1.75vw;
+            padding-top: 1vh;
+            margin-right: 0;
+        }
+        
+    }
+    .center {
+        display: flex;
+        flex-wrap: wrap;
+        div {
+            margin: 5px;
+        }
+    }
+}
+
+@media screen and (max-width:1260px){
+    .header {
+        display: flex;
+        position: relative;
+        margin-bottom: 3vh;
+        .input{
+            flex-grow: 1; 
+            position: absolute;
+            left: 20vw;
+            input {
+                border: 1px solid black;
+                border-radius: 15px 0 0 15px;
+            }
+        }
+        .logo img {
+            width: 10vw;
+        }
+        .search img {
+            position: absolute;
+            width: 1.75vw;
+            left: 50.99vw;
+            padding: 5px;
+            height: 3vh;
+        }
+        .mic img {
+            position: absolute;
+            left: 54.5vw;
+            width: 2.7vw;
+            border-radius: 50%;
+        }
+    
+        .user img {
+            position: absolute;
+            right: 20vw;
+            width: 2.7vw;
+            border-radius: 50%;
+        }
+    }
+    
+}
+
+@media screen and (max-width:796px){
+    .header {
+        display: flex;
+        position: relative;
+        margin-bottom: 3vh;
+        .input{
+            flex-grow: 1; 
+            position: absolute;
+            left: 15vw;
+        }
+        .logo img {
+            width: 10vw;
+        }
+        .search img {
+            position: absolute;
+            width: 1.85vw;
+            left: 46.99vw;
+            padding: 5px;
+            height: 3vh;
+        }
+        .mic img {
+            position: absolute;
+            left: 52.5vw;
+            width: 3.7vw;
+        }
+    
+        .user img {
+            left: 50.5;
+        }
+    }
+
+    .middle {
+        display: flex;
+        .left{
+            position: relative;
+            margin-right: 0;
+            width: 30vw;
+            ul {
+    
+                li {
+                    margin: 3px;
+                }
+            }
+            img {
+                width: 20px;
+            }
+            
+        }
+    
+        .center {
+            div {
+                margin: 5px 0;
+            }
+        }
+    }
+    
+}

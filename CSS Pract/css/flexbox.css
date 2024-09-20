@@ -1,0 +1,72 @@
+.container1 {
+    background-color: bisque;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.container1 div {
+    margin: 20px;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+    background-color: bisque;
+    margin: 10px;
+}
+
+.container2 div {
+    margin: 20px;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+}
+
+
+.container3 {
+    display: flex;
+    /* justify-content: center; */
+    justify-content: center;
+    background-color: bisque;
+    margin: 10px;
+    /* align-items: center; */
+    /* Justify content and align item set to centre will take the box to the centre of the container */
+}
+
+.container3 div {
+    margin: 20px;
+    font-size: 2em;
+    border: 1px solid black;
+    padding: 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+.container4 {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: center; */
+    background-color: bisque;
+    margin: 10px;
+    /* align-items: center; */
+    /* Justify content and align item set to centre will take the box to the centre of the container */
+}
+
+.container4 div {
+    margin: 20px;
+    font-size: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}

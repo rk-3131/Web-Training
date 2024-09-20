@@ -1,0 +1,103 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    background-color: #564127;
+    color: antiquewhite;
+    text-align: center;
+    height: 10vh;
+    border: 1px solid black;
+    border-radius: 1.5vh;
+}
+
+.header h1 {
+    padding: 2vh 0;
+}
+
+.navigation {
+    background-color: #564127;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 1.5vh;
+    margin: 1vh 0;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 2vw;
+}
+
+.navigation ul li a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover{
+    color: rgb(246, 246, 245);
+}
+
+
+.middleSection {
+    display: flex;
+}
+
+.middleSection .left {
+    background-color: #a49480;
+    padding: 2vw;
+    margin: 0.25vw;
+    border: 1px solid black;
+    border-radius: 1.5vh 0 1.5vh 0;
+    box-shadow: 2px 2px 2px;
+}
+
+.middleSection h1 {
+    text-align: center;
+}
+
+.middleSection p {
+    text-align: justify;
+}
+
+.middleSection .left ul li {
+    list-style-type: none;
+    margin: 7.5px 0px;
+    text-align: left;
+}
+.middleSection .centre {
+    background-color: #a49480;
+    flex-grow: 2;
+    padding: 2vw;
+    margin: 0.25vw;
+    border: 1px solid black;
+    border-radius: 1.5vh 0 1.5vh 0;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.middleSection .right {
+    background-image: linear-gradient(0deg, pink, red);
+    padding: 2vw;
+    margin: 0.25vw;    
+    border: 1px solid black;
+    border-radius: 1.5vh 0 1.5vh 0;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.footer {
+    background-color: #a49480;
+    text-align: center;
+    padding: 1vw;
+    margin: 0.25vw;    
+    border: 10px solid transparent;
+    border-image: url("/images/border.png") 50 round;
+    border-radius: 2vh;
+}
+
+@media screen and (max-width:700px){
+    .middleSection {
+        flex-direction: column;
+    }
+}
+
+

@@ -1,0 +1,66 @@
+.header {
+  text-align: center;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header img {
+  max-width: 80%;
+  /* padding: 20px; */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.9);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  margin: 10px;
+  flex: 1;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+span {
+  margin: 5px;
+  padding: 15px;
+}
+
+.instruction h3 {
+  text-align: center;
+}
+
+.instruction {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.instructionHeading {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.instructionList {
+  margin: 20px;
+  padding-bottom: 40px;
+}
+
+.instruction ul li {
+  margin: 20px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.ingr {
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+  margin: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
